@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@0.15.3 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:typography" sveltekit-adapter="adapter:cloudflare+cfTarget:workers" --install pnpm website
+pnpm dlx sv@0.16.1 create --template minimal --types ts --add prettier playwright eslint sveltekit-adapter="adapter:cloudflare+cfTarget:workers" experimental="versions:kit+features:async,remoteFunctions,explicitEnvironmentVariables,handleRenderingErrors" --install pnpm website
 ```
 
 ## Developing
